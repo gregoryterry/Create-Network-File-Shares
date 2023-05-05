@@ -79,13 +79,15 @@ Click Explorer > this computer > c:\
 <p>
 <img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
-<p>Repeat this procedure for “Write-access” , leave the Accounting folder as is for now.
+<p>Repeat this procedure for “Write-access”,
+leave the Accounting folder as is for now.
 <p>
 <img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>Right-click the “No-access” folder > properties > share tab > share
 
-Type “Domain Admins” or you can search for “Domain Admins” using the following procedure:
+Type “Domain Admins” or you can search for “Domain Admins”
+using the following procedure:
 <p>
 
 <p>=====================================================================================
@@ -131,13 +133,14 @@ This folder has “write access” permissions
 <p>
 <img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
-<p>Goto the file explorer
-Try to access the three folders that were created. 
-Which folders can we access? 
-Which folder can we access and modify?
+<p>Goto the file explorer<p>
+<p>Try to access the three folders that were created.<p> 
+<p>Which folders can we access?<p>
+<p>Which folder can we access and modify?
 <p>
 
-<p>Try to access the “read-access” folder using the following path “\\DC01\read-access”
+<p>Try to access the “read-access” folder using the following path
+“\\DC01\read-access”
 <p>
 <img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
@@ -202,7 +205,8 @@ right-click the domain > New > Group >
 <p>
 <img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
-<p>In the file explorer, go to the accounting folder, set the permissions on the Accounting folder to:
+<p>In the file explorer, go to the accounting folder,
+set the permissions on the Accounting folder to:
 
 Group :       Accountants  
 Permissions:  Read-Write
@@ -222,8 +226,9 @@ Log on as one of the new users
 <p>Go to the Accounting folder
 Can the user access the folder?
 No, this user is not a member of the “Accountants security group”
-
-Log out of GTWS01
+<p>
+	
+<p>Log out of GTWS01
 <p>
 <img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
