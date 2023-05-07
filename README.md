@@ -2,7 +2,9 @@
 In this lab I will demonstrate how to create file shares, grant and restrict access to the shares, and create and add a member to an Active directory security group.
 
 <p align="center">
-<img src="" alt="Traffic Examination"/> <img src="" alt="Traffic Examination"/>
+<img src="https://i.imgur.com/LI6HnVC.png" alt="Traffic Examination"/> 
+
+<img src="https://i.imgur.com/zd4QKPu.png" alt="Traffic Examination"/>
 </p>
 
 <h2>Environments and Technologies Used</h2>
@@ -34,55 +36,56 @@ In this lab I will demonstrate how to create file shares, grant and restrict acc
 
 <p>Log into DC01 
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/x1UPASQ.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>On DC01 create four folders:
 
 Click Explorer > this computer > c:\ 
 	Right-click > new > folder
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UuQNQuq.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>Rename the four folders as follows:
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4IRfQeJ.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <b>Set the following access permissions for each folder</b>
 
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CNj4BxF.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
 
 <h4>Part 2</h4>
 <h4>Share and set access permissions for each folder</h4>
 
 <p>Right-click the  “Read-access” folder > properties
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Xv4B0dI.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>Select the sharing tab > share
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2XG5C8W.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <b>Select people or groups to share the folder</b>
 
 <p>Share this folder with “Domain Users”  > add
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IeexWWx.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Select “share”
 <p>
 
 <p>The folder is shared > select “done”
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lb9DZjX.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Here is the path to the folder > close
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HtKuUdk.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Repeat this procedure for “Write-access”,
 leave the Accounting folder as is for now.
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wGt0d2L.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>Right-click the “No-access” folder > properties > share tab > share
 
@@ -95,12 +98,13 @@ using the following procedure:
 
 <p>In the search box type “domain” > when the pop-up displays select “find”
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/efZikqh.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>Type “domain” in the object field > check names
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xGfDfUV.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/6vkt0Tg.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <i>You can use this method if you have trouble finding a user or group</i>
 
@@ -109,8 +113,8 @@ using the following procedure:
 
 <b>Change the permission for the “No-access” folder to “Read-write” > share</b>
 
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8Hp2mkn.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2WjrM26.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <b>Set access permissions for the “Write-access” folder</b>
 
