@@ -122,12 +122,11 @@ using the following procedure:
 Right-click  the “Write-access” folder > properties > sharing tab >
 change permissions to “Read-write”
 <p>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Select “share” 
 This folder has “write access” permissions
 <p>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/G0KKRLu.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <h4>Part 3</h4>
 
@@ -135,7 +134,7 @@ This folder has “write access” permissions
 
 <p>Using the public IP address, Log into GTWS-01 with one of the new users we created
 <p>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KL03C5z.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Goto the file explorer<p>
 <p>Try to access the three folders that were created.<p> 
@@ -146,51 +145,51 @@ This folder has “write access” permissions
 <p>Try to access the “read-access” folder using the following path
 “\\DC01\read-access”
 <p>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Uhnf1rI.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Here are the shares that are stored on DC01
 <p>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nHhGGlw.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Can we access the “read-access” folder?  Yes
 Can we modify files inside  the “read-access” folder? No.
 **the permission is set to read-only
 <p>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Epi6e3f.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7c87NI5.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Can we access the “write-access” folder? Yes.
 Can we modify the “read-access” folder? Yes.
 **the permission is set to read-write
 <p>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/p4ntJ2D.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>I am able to create and modify files inside the “write-access” folder
 <p>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/h5Mk2F1.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Can we access the “no-access” folder? No.	
 *** The permission is set to “read-write”; however, 
 this user cannot access the folder because the user is not a member
 of the "Domain Admins” group.
 <p>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mFUDNcP.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>On GTWS-01
 
 Log out and log in with a “Domain Admin” account
 <p>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cHpDKUV.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <p>Try to access and modify the “no-access” folder
 <p>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vQpnKhO.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Can I access the “no-access” folder?  Yes
 Can I write to the “no-access” folder? Yes
 I can read and write to this folder because the access is set for “Domain Admins”
 <p>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JEtEDYC.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <h4>Part 4</h4>
 
@@ -199,15 +198,15 @@ I can read and write to this folder because the access is set for “Domain Admi
 <p>Log on to DC01 > Server Manager > Active Directory Users and Computers >
 right-click the domain > New > Group >
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rjiQN97.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 <p>Name the Group > Accountants
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aujd53e.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Here is the new group
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1rK2pI6.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 <p>In the file explorer, go to the accounting folder,
 set the permissions on the Accounting folder to:
@@ -215,8 +214,8 @@ set the permissions on the Accounting folder to:
 Group :       Accountants  
 Permissions:  Read-Write
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LLTJz4p.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3VrUOFz.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <h4>Part 5</h4>
 
@@ -225,41 +224,42 @@ Permissions:  Read-Write
 <p>Go to GTWS-01
 Log on as one of the new users
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xaWJkjl.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <p>Go to the Accounting folder
 Can the user access the folder?
 No, this user is not a member of the “Accountants security group”
 <p>
+<img src="<img src="https://i.imgur.com/BV7KjCV.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
 	
 <p>Log out of GTWS01
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>Add domain user “cuv.rem” to the Accountants group
 
 On DC01 > server manager > active directory users and computers > 
 Select view > advanced features >
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sXNE1Jv.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 <p>Right-click Accountants group > properties
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/a7y9vwI.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 <p>Select the Members tab > add > cuv.rem> check names > ok
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mLoWbSK.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <p>Apply > ok
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7vFENG9.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Goto GTWS-01
 
 Log out and log back in with user “cuv.rem”
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wdamvpc.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <i>Can this user access the Accounting folder?
 Yes, because the user is now a member of the Accountants security group</i>
