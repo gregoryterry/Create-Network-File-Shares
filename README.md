@@ -36,22 +36,22 @@ In this lab I will demonstrate how to create file shares, grant and restrict acc
 
 <p>Log into DC01 
 <p>
-<img src="https://i.imgur.com/x1UPASQ.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/x1UPASQ.png" height="40%" width="401" alt="Disk Sanitization Steps"/>
 
 <p>On DC01 create four folders:
 
 Click Explorer > this computer > c:\ 
 	Right-click > new > folder
 <p>
-<img src="https://i.imgur.com/UuQNQuq.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UuQNQuq.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <p>Rename the four folders as follows:
 <p>
-<img src="https://i.imgur.com/4IRfQeJ.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4IRfQeJ.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 <b>Set the following access permissions for each folder</b>
 
-<img src="https://i.imgur.com/CNj4BxF.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CNj4BxF.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 
 <h4>Part 2</h4>
@@ -59,11 +59,11 @@ Click Explorer > this computer > c:\
 
 <p>Right-click the  “Read-access” folder > properties
 <p>
-<img src="https://i.imgur.com/Xv4B0dI.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Xv4B0dI.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <p>Select the sharing tab > share
 <p>
-<img src="https://i.imgur.com/2XG5C8W.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2XG5C8W.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <b>Select people or groups to share the folder</b>
 
@@ -80,12 +80,12 @@ Click Explorer > this computer > c:\
 
 <p>Here is the path to the folder > close
 <p>
-<img src="https://i.imgur.com/HtKuUdk.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HtKuUdk.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <p>Repeat this procedure for “Write-access”,
 leave the Accounting folder as is for now.
 <p>
-<img src="https://i.imgur.com/wGt0d2L.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wGt0d2L.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
 <p>Right-click the “No-access” folder > properties > share tab > share
 
@@ -98,13 +98,13 @@ using the following procedure:
 
 <p>In the search box type “domain” > when the pop-up displays select “find”
 <p>
-<img src="https://i.imgur.com/efZikqh.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/efZikqh.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Type “domain” in the object field > check names
 <p>
-<img src="https://i.imgur.com/xGfDfUV.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xGfDfUV.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/6vkt0Tg.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6vkt0Tg.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <i>You can use this method if you have trouble finding a user or group</i>
 
@@ -113,8 +113,8 @@ using the following procedure:
 
 <b>Change the permission for the “No-access” folder to “Read-write” > share</b>
 
-<img src="https://i.imgur.com/8Hp2mkn.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/2WjrM26.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8Hp2mkn.png" height="40%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2WjrM26.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <b>Set access permissions for the “Write-access” folder</b>
 
@@ -122,12 +122,12 @@ using the following procedure:
 Right-click  the “Write-access” folder > properties > sharing tab >
 change permissions to “Read-write”
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Select “share” 
 This folder has “write access” permissions
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <h4>Part 3</h4>
 
@@ -135,7 +135,7 @@ This folder has “write access” permissions
 
 <p>Using the public IP address, Log into GTWS-01 with one of the new users we created
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Goto the file explorer<p>
 <p>Try to access the three folders that were created.<p> 
@@ -146,51 +146,51 @@ This folder has “write access” permissions
 <p>Try to access the “read-access” folder using the following path
 “\\DC01\read-access”
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Here are the shares that are stored on DC01
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Can we access the “read-access” folder?  Yes
 Can we modify files inside  the “read-access” folder? No.
 **the permission is set to read-only
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Can we access the “write-access” folder? Yes.
 Can we modify the “read-access” folder? Yes.
 **the permission is set to read-write
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>I am able to create and modify files inside the “write-access” folder
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Can we access the “no-access” folder? No.	
 *** The permission is set to “read-write”; however, 
 this user cannot access the folder because the user is not a member
 of the "Domain Admins” group.
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>On GTWS-01
 
 Log out and log in with a “Domain Admin” account
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Try to access and modify the “no-access” folder
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Can I access the “no-access” folder?  Yes
 Can I write to the “no-access” folder? Yes
 I can read and write to this folder because the access is set for “Domain Admins”
 <p>
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <h4>Part 4</h4>
 
