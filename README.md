@@ -231,7 +231,7 @@ Group :       Accountants
 	
 Permissions:  Read-Write
 </p>
-<img src="https://i.imgur.com/LLTJz4p.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LLTJz4p.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/3VrUOFz.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <h4>Part 5</h4>
@@ -262,11 +262,11 @@ On DC01 > server manager > active directory users and computers >
 													   
 Select view > advanced features >
 </p>
-<img src="https://i.imgur.com/sXNE1Jv.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sXNE1Jv.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Right-click Accountants group > properties
 <p>
-<img src="https://i.imgur.com/a7y9vwI.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/a7y9vwI.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 <p>Select the Members tab > add > cuv.rem> check names > ok
 <p>
@@ -274,7 +274,7 @@ Select view > advanced features >
 
 <p>Apply > ok
 <p>
-<img src="https://i.imgur.com/7vFENG9.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7vFENG9.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 <p>Goto GTWS-01
 
